@@ -1,0 +1,16 @@
+{
+  "name": "bosta-demo",
+  "version": "1.0.0",
+  "description": "Standalone demo for Bosta delivery API integration",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5"
+  }
+}
